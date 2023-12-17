@@ -1,13 +1,10 @@
 # first clone the Sliding-Window-FD
 # (https://github.com/yinhanyan/Sliding-Window-FD)
+# git clone https://github.com/yinhanyan/Sliding-Window-FD.git swfd --depth 1
 
-import sys
-
-sys.path.append("./Sliding-Window-FD")
-
-from seq_based_swfd import SeqBasedSWFD
+from swfd import SeqBasedSWFD
+# or `from swfd import *`
 import numpy as np
-
 
 if __name__ == "__main__":
     l = 16
